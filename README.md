@@ -7,5 +7,5 @@ the package rpm-build should be installed
 install
   - git clone this repo
   - run ./init.sh
-  - edit the spec file to your needs <user> & <filename>
+  - edit the spec file to your needs user & filename
 
