@@ -18,6 +18,10 @@ echo "$FILE1 does not exists...creating it."
 cat <<- EOF
 %_topdir      $FOLDER1
 %_tmppath     $FOLDER1/tmp
+%_signature gpg
+%_gpg_path /root/.gnupg
+%_gpg_name asteriosos
+%_gpgbin /usr/bin/gpg
 EOF
 ) > $FILE1
 else
