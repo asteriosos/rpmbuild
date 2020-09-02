@@ -37,7 +37,7 @@ fi
 if [ ! -f "/home/$USER/bin/buildrpm" ]; then
   echo "Copy buildrpm to ~/bin"
   cp buildrpm /home/$USER/bin/
-  echo "Copied buidrom to your users bin folder. Run it with argument <name of your spec file> to build."
+  echo "Copied buildrpm to your users bin folder. Run it with argument <name of your spec file> to build."
 fi
 
 echo "Copy the files that should be in the rpm to $FOLDER1/SOURCES"
